@@ -7,10 +7,10 @@ import tea4 from'../../assets/images/tea-3.png'
 
 const FeaturedProducts = () => {
     return (
-        <div className='mt-5 mb-8 px-20 md:px-5 sm:px-1'>
+        <div className='mt-5 mb-8 lg:px-20 md:px-5 sm:px-1'>
             <div className='text-center mb-16'>
-                <h1 className='text-5xl md:text-3xl sm:text-2xl font-bold mt-5 mb-3'>Our Featured Products</h1>
-                <p className='font-semibold mx-3'>Here is our all products. Swipe right or left to check our products.</p>
+                <h1 className='lg:text-5xl md:text-3xl sm:text-2xl font-bold mt-5 mb-3'>Our Featured Products</h1>
+                <p className='font-semibold mt-5 mb-3'>Here is our all products. Swipe right or left to check our products.</p>
             </div>
             <Swiper
                 spaceBetween={30}
